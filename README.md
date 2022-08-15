@@ -21,6 +21,14 @@
 
 ![image](https://user-images.githubusercontent.com/61955866/175799617-50bc81e6-7ba3-4154-b8d6-71342f745d28.png)
 
+# set容易实现
+使用红黑树实现了查找，插入以及迭代指针begin()和end()，rbegin()和rend()函数
+![image](https://user-images.githubusercontent.com/61955866/184599731-494fc648-56e7-4907-a80b-0a9f911bf414.png)
+
+# map容器实现
+使用红黑树实现了插入以及迭代指针begin()和end()和下边访问运算符的重载函数，需要注意的是map和set使用同一棵红黑树，set传入一个变量K，而map传入一个变量对pairs<K,V>
+![image](https://user-images.githubusercontent.com/61955866/184599784-29deb76a-16d0-4963-8639-651437ce460c.png)
+
 # 动态重载实现1
 给予普通数据结构，使用动态数组模板类实现了默认构造函数、拷贝构造函数、析构函数、[]下标访问重载、=赋值重载等基本函数
 
